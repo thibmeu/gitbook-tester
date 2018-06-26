@@ -5,6 +5,7 @@
 [![npm version](https://badge.fury.io/js/gitbook-tester.svg)](https://badge.fury.io/js/gitbook-tester)
 [![Dependencies Status](https://david-dm.org/todvora/gitbook-tester/status.svg)](https://david-dm.org/todvora/gitbook-tester/)
 [![DevDependencies Status](https://david-dm.org/todvora/gitbook-tester/dev-status.svg)](https://david-dm.org/todvora/gitbook-tester/#info=devDependencies)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthibmeu%2Fgitbook-tester.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthibmeu%2Fgitbook-tester?ref=badge_shield)
 
 No more mocking of ```gitbook build```! Verify your gitbook-plugin against a real, up-to-date
 version of gitbook. This integration framework creates a temporary book, attaches your local gitbook plugin, runs ```gitbook build``` and returns the parsed pages content.
@@ -151,3 +152,6 @@ describe("my first gitbook integration test", function() {
 
 ## License
 This project is available under [Apache-2.0](http://choosealicense.com/licenses/apache-2.0/) license.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthibmeu%2Fgitbook-tester.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthibmeu%2Fgitbook-tester?ref=badge_large)
